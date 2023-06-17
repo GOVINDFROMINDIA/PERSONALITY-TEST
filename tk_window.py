@@ -104,7 +104,7 @@ j_count = 0
 
 def graph(score,count):
             z=np.array([score,count-score])
-            label=["introvert","extrovert"]
+            label=["extrovert","introvert"]
             myexplode=[0.3,0]
             plt.pie(z,labels=label,explode=myexplode)
             plt.show()
